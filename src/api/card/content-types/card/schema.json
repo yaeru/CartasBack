@@ -59,6 +59,15 @@
       "relation": "manyToOne",
       "target": "api::culture.culture",
       "inversedBy": "cards"
+    },
+    "power": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "integer",
+      "required": true
     }
   }
 }
