@@ -31,6 +31,20 @@
       "relation": "oneToMany",
       "target": "api::card.card",
       "mappedBy": "culture"
+    },
+    "cover": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }

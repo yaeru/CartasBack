@@ -68,6 +68,12 @@
       },
       "type": "integer",
       "required": true
+    },
+    "decks": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::deck.deck",
+      "inversedBy": "cards"
     }
   }
 }
